@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+build/
+dist/
+installer_out/
+*.spec
+_test_tmp/
+.trae/
+.idea/
+.vscode/
