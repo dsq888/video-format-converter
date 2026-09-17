@@ -50,12 +50,13 @@
 
 ## 5. 未完成（TODO）
 
-### 任务 A：Git 初始化 + 提交 GitHub
-- `git init` → `.gitignore`（`__pycache__/`、`build/`、`dist/`、`*.spec`、`installer_out/`）→ 提交 → 推 GitHub → 链接发 HR
-- `bin/*.exe` 体积较大，是否入库需确认
+### 任务 A：Git 初始化 + 提交 GitHub ✅ 已完成
+- 仓库：<https://github.com/dsq888/video-format-converter>（公开，main 分支）
+- `git init` → `.gitignore`（`__pycache__/`、`build/`、`dist/`、`*.spec`、`installer_out/` 等）→ 提交 → 推送完成
+- `bin/*.exe` 已确认入库（单个 <100MB GitHub 硬限制，推送时仅有 >50MB 建议性警告）
 
-### 任务 B：生成会话总结 md（决策 + 反馈）
-- 内容建议：为何 PySide6/便携 ffmpeg/ffprobe JSON/QThread、踩坑与修复（管道阻塞、分辨率转义、黑窗、进度虚满、慢编码）、HR 反馈点
+### 任务 B：生成会话总结 md（决策 + 反馈）✅ 已完成
+- 见同目录 `SESSION_SUMMARY.md`（技术决策、7 条踩坑修复、交付物清单）
 
 ## 6. 实现细节（不要破坏的点）
 
